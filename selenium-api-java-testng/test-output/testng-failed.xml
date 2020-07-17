@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="automationfc.Exercise_Xpath_TC">
+        <methods>
+          <include name="TC_06_Create_an_account"/>
+          <include name="beforeClass"/>
+          <include name="TC_05_Login_with_valid_Emailpassword"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- automationfc.Exercise_Xpath_TC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
